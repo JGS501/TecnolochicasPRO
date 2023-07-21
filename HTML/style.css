@@ -1,0 +1,56 @@
+body{
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #cb8591);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Tajawal', sans-serif;
+    color: black;
+}
+p{
+    color: #4d4143;
+}
+.titulo{
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 5vw;
+    color:#a93545;
+    text-align: center;
+}
+.axo{
+    width: 350px;
+    display: flex;
+    margin-left: 50px;
+}
+
+a{
+    color:#a93545;
+    text-decoration:none;
+    
+}
+
+.foto{
+    display: flex;
+    justify-content: left;
+    height: 50%;
+}
+
+.lista{
+    display: flex;
+    justify-content: right;
+    height: 50%;
+    color: #000000;
+    align-items: center;
+}
+
+.autor{
+    color: #c7253a;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacion{
+    text-align: justify;
+    margin: 40px;
+    margin-top: 0px;
+}
